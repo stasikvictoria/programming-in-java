@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"agh.ii.prinjava.lab02.exc02_01","l":"StackOfInts"}];updateSearchResults();
