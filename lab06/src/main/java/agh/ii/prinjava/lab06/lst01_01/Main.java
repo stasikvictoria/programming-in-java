@@ -138,11 +138,69 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        /*
         demo1();
         demo2();
         demo3();
         demo4();
+        */
+
+
+        Lambda1 l1 = (x) -> x-2;
+        System.out.println("3-2="+ l1.expression1(3));
+
+        Lambda2 l2 = (x,y) -> Math.sqrt(x*x + y*y);
+        System.out.println("sqrt(5*5 + 5*5)="+ l2.expression2(5,5));
+
+        Lambda3 l3 = (x,y,z) -> Math.sqrt(x*x + y*y + z*z);
+        System.out.println("sqrt(5*5 + 5*5 + 1*1)="+ l3.expression3(5,5, 1));
+
+        Lambda4 l4 = (x) -> Math.abs(x);
+        System.out.println("abs(-5)="+ l4.expression4(-5));
+
+        Lambda5 l5 = (x) -> Math.log(x);
+        System.out.println("log(1)="+ l5.expression5(1));
+
+        FunIt<String, Integer> f1 = (x) -> Integer.parseInt(x);
+        FunIt<Integer, String> f2 = (x) -> x.toString();
+        FunIt<Double, Double> f3 = (x) -> x;
+        //???
+        //FunIt<Integer, Boolean> f4 = ;
+        //FunIt<Boolean, Integer> f5 = ;
+        FunIt<Boolean, Boolean> f6 = (x)->x;
+
     }
+}
+
+
+@FunctionalInterface
+interface Lambda1{
+    double expression1(double x);
+}
+
+@FunctionalInterface
+interface Lambda2{
+    double expression2(double x, double y);
+}
+
+@FunctionalInterface
+interface Lambda3{
+    double expression3(double x, double y, double z);
+}
+
+@FunctionalInterface
+interface Lambda4{
+    int expression4(int x);
+}
+
+@FunctionalInterface
+interface Lambda5{
+    double expression5(double x);
+}
+
+@FunctionalInterface
+interface FunIt<T, R>{
+    R apply(T t);
 }
 
 /**
@@ -181,3 +239,6 @@ interface I1 {
 interface IFactory<T> {
     T create(double a, double b);
 }
+
+
+
