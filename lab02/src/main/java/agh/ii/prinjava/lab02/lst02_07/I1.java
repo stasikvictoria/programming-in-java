@@ -15,9 +15,10 @@ package agh.ii.prinjava.lab02.lst02_07;
 abstract interface I1 {
     public abstract void m1();
 }
-
+/*
 interface I2 { // it is still abstract
     void m21(); // it is still public abstract
 
     void m22(); // as above
 }
+*/
