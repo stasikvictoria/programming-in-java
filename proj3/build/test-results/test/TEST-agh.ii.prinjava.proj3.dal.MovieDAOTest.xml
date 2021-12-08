@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="agh.ii.prinjava.proj3.dal.MovieDAOTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2021-12-08T09:17:18" hostname="MacBook-Pro-de-Victoria.local" time="0.372">
+  <properties/>
+  <testcase name="moviesPerTop10Director()" classname="agh.ii.prinjava.proj3.dal.MovieDAOTest" time="0.305"/>
+  <testcase name="moviesPerTop5ActorPartnerships()" classname="agh.ii.prinjava.proj3.dal.MovieDAOTest" time="0.01"/>
+  <testcase name="numberOfMoviesPerDirector()" classname="agh.ii.prinjava.proj3.dal.MovieDAOTest" time="0.013"/>
+  <testcase name="moviesTheActorPlayedIn()" classname="agh.ii.prinjava.proj3.dal.MovieDAOTest" time="0.007"/>
+  <testcase name="top5FrequentActorPartnerships()" classname="agh.ii.prinjava.proj3.dal.MovieDAOTest" time="0.005"/>
+  <testcase name="numberOfMoviesPerActor()" classname="agh.ii.prinjava.proj3.dal.MovieDAOTest" time="0.005"/>
+  <testcase name="moviesPerTop9Actor()" classname="agh.ii.prinjava.proj3.dal.MovieDAOTest" time="0.007"/>
+  <testcase name="numberOfMoviesPerTop10Director()" classname="agh.ii.prinjava.proj3.dal.MovieDAOTest" time="0.004"/>
+  <testcase name="numberOfMoviesPerTop9Actor()" classname="agh.ii.prinjava.proj3.dal.MovieDAOTest" time="0.003"/>
+  <testcase name="moviesDirectedBy()" classname="agh.ii.prinjava.proj3.dal.MovieDAOTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
